@@ -1,0 +1,194 @@
+
+/*=== mobile view for header only*/
+@media screen and (max-width:600px)
+{
+    body {
+        
+/*        padding: 10px;*/
+         font-family: Bookman Old Style;
+    }
+    header
+    {
+/*    	padding: 5px 10px;*/
+/*    	margin-right: 0px;*/
+    }
+    nav h1
+    {
+    	font-size: 18px;
+    }
+}
+
+/*--------------------------------------------------*/
+
+/*=== mobile view for menu button === */
+
+
+	@media screen and (max-width:600px)
+        {
+            nav ul li a 
+            {
+                display: none;
+            }
+            .menu-btn
+            {
+                display: flex;
+                margin-top: 5px;
+            }
+        }
+/*--------------------------------------------------*/
+
+/*Main section home section*/
+@media screen and (max-width:600px)
+ {
+ 	.text-section h1 
+ 	{
+ 		font-size: 1.8em;
+ 	}
+ 	.text-section h2 
+ 	{
+ 		font-size: 1.7em;
+ 	}
+ 	.text-section h3 
+ 	{
+       font-size: 1.5em;
+    }
+    .actions button:hover
+    {
+       transform: translateY(-10px);
+       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+       background-color: lavender;
+       color: black;
+     }
+    
+ }
+ /*--------------------------------------------------*/
+
+
+/* === image === */
+@media screen and (max-width:600px)
+ {
+ 	.image-section
+ 	{
+ 		margin-left: 10px;
+ 		margin-right: 10px;
+ 	}
+ }
+
+
+
+
+
+
+/*--------------------------------------------------*/
+
+
+
+
+/* === contact mobile view === */
+ @media screen and (max-width:600px)
+ {
+ 	.contact-container
+ 	{
+ 		max-width: 300px;
+        width: 90%;
+        
+ 	}
+ 	.sec1
+ 	{
+ 		 padding: 10px;
+ 		 max-width: 400px;
+ 		 
+ 	}
+ 	.contact-section .info-box .icon
+ 	{
+ 		font-size: 15px;
+ 	}
+ 	.contact-section .info-box .text h3
+ 	{
+ 		font-size: 9px;
+ 	}
+    .text p
+ 	{
+ 		font-size: 8px;
+ 	}
+ 	.contact-section1 .info-box .icon
+ 	{
+ 		font-size: 15px;
+ 	}
+ 	.contact-section1 .info-box .text h3
+ 	{
+ 		font-size: 9px;
+ 	}
+ 	.contact-section1 .info-box .text a
+ 	{
+ 		font-size: 8px;
+ 	}
+ 	.sec2
+ 	{
+ 		padding: 10px;
+ 	} 
+ 	
+      .contact-form label
+       {
+            margin-bottom: 5px;
+            font-size: 10px;
+            color: ;
+       }
+       .contact-form input,
+        .contact-form textarea {
+            margin-bottom: 20px;
+            padding: 8px 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 10px;
+            color: #333;
+            transition: border-color 0.3s ease;
+        }
+        .contact-form button 
+        {
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            text-align: center;
+            float: center;
+            margin-bottom: 0px;
+        }
+ }
+
+
+ /*--------------------------------------------------*/
+
+
+
+@media only screen and (max-width: 800px)
+
+ {
+   footer
+   { 
+/*    background-color: black;*/
+   display: block;
+/*   justify-content: initial;*/
+/*   padding: 20px;*/
+   /*border-top: 1px solid #ccc;*/
+/*   margin-top: 5px;*/
+   font-size: 12px;
+   
+  }
+.footer div
+{display: block;
+    flex: 1;
+    text-align: left;
+     color: white;
+/*     margin-left: 10px;
+     margin-top: 2px;
+*/
+}
+
+.footer .social-icons a
+{
+    margin: 0 5px;
+    font-size: 15px;
+}
+}
+
+ 
