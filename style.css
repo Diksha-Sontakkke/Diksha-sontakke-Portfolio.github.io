@@ -173,7 +173,7 @@ nav ul li a:hover {
         background-color: black;
         border: none;
         cursor: pointer;
-        font-size: 17px;
+        font-size: 15px;
 /*        margin-top: 5px;    */
     }
 .menu-btn:focus
@@ -190,16 +190,18 @@ nav ul li a:hover {
             width: 100%;
             z-index: 100;
 
-        }
-        .dropdown a
-        {
-            display: block;
-            text-decoration: none;
-            text-align: left;
-/*          background-color: black;*/
-            color: #f2f2f2;
 
         }
+        .dropdown a
+            {
+            display: inline-flex;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 50px;
+            color: yellow;
+            justify-content: space-between;
+            margin-left: 10px;
+            }
         .menu-btn.open + .dropdown
         {
             display: block;
