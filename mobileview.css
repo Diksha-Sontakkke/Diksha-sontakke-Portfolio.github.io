@@ -32,8 +32,19 @@
             .menu-btn
             {
                 display: flex;
-                margin-top: 5px;
+                margin-top: 0px;
+                align-items: right;
             }
+            /*.dropdown a
+            {
+            display: inline-flex;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 50px;
+            color: yellow;
+            justify-content: space-between;
+            margin-left: 10px;
+            }*/
         }
 /*--------------------------------------------------*/
 
